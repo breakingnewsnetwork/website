@@ -1,0 +1,4 @@
+baseURL = 'https://breakingnewsnetwork.com'
+languageCode = 'en-us'
+title = 'Breaking News Network'
+theme = 'bnn'

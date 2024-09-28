@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="inner-container">
+    <div class="main">
+        <div class="main-left">
+            <h1>Welcome to Breaking News Network</h1>
+            <p>
+                Welcome to Breaking News Network (BNN), the only full-time, dedicated incident notification system.
+                Our news-gathering capability depends on our professionally staffed 24-hour newsdesk as well as member participation.
+                Members include many public safety agencies and personnel, most major media outlets, news reporters...
+            </p>
+            <a href="#" class="read-more">Read more</a>
+        </div>
+        <div class="main-right">
+            <img src="https://via.placeholder.com/400x500" alt="News Image">
+        </div>
+    </div>
+
+    {{ .Content }}
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</div>
+{{ end }}

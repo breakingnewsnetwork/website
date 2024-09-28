@@ -1,0 +1,39 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = 'My New Hugo Site'
+
+[[menus.main]]
+name = 'About'
+pageRef = '/about'
+weight = 10
+
+[[menus.main]]
+name = 'Subscribe'
+pageRef = '/subscribe'
+weight = 20
+
+[[menus.main]]
+name = 'Become a Reporter'
+pageRef = '/become-a-reporter'
+weight = 30
+
+[[menus.main]]
+name = 'Send a New Tip'
+pageRef = '/send-a-new-tip'
+weight = 40
+
+[[menus.main]]
+name = 'Feedback'
+pageRef = '/feedback'
+weight = 50
+
+[[menus.main]]
+name = 'Contact Us'
+pageRef = '/contact-us'
+weight = 60
+
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
