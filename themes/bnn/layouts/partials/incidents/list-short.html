@@ -1,0 +1,10 @@
+{{- with resources.GetRemote "https://bnn.us/rss.xml" | transform.Unmarshal }}
+  <div class="incidents-container">
+    {{ range first 6 .channel.item }}
+    <div class="incidents-item">
+      {{ .pubDate }}
+      <p> {{ .title }} | {{ .description }} | {{ .author }}</p>
+    </div>
+    {{ end }}
+  </div>
+{{- end }}

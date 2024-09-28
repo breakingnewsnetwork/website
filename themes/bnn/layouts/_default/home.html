@@ -1,17 +1,26 @@
 {{ define "main" }}
-<div class="inner-container">
+<div class="container">
     <div class="main">
-        <div class="main-left">
-            <h1>Welcome to Breaking News Network</h1>
-            <p>
-                Welcome to Breaking News Network (BNN), the only full-time, dedicated incident notification system.
-                Our news-gathering capability depends on our professionally staffed 24-hour newsdesk as well as member participation.
-                Members include many public safety agencies and personnel, most major media outlets, news reporters...
-            </p>
-            <a href="#" class="read-more">Read more</a>
+        <div class="inner-container">
+            <div class="main-left">
+                <h2>{{ .Params.title_1 }}</h2>
+                <p>
+                    {{ .Params.content_1 }}
+                </p>
+                <div style="text-align: end; margin-top: 60px">
+                    <a href="{{ .Params.readmore_link_1 }}" class="read-more">{{ .Params.readmore_1 }}</a>
+                </div>
+            </div>
         </div>
-        <div class="main-right">
-            <img src="https://via.placeholder.com/400x500" alt="News Image">
+    </div>
+
+    <div class="incidents">
+        <div class="inner-container">
+            <h2>{{ .Params.title_2 }}</h2>
+            {{ partial "incidents/list-short.html" . }}
+            <div style="text-align: end; margin-top: 60px">
+                <a href="{{ .Params.readmore_link_2 }}" class="read-more">{{ .Params.readmore_2 }}</a>
+            </div>
         </div>
     </div>
 

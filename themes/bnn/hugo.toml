@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://breakingnewsnetwork.com'
 languageCode = 'en-US'
-title = 'My New Hugo Site'
+title = 'Breaking News Network'
 
 [[menus.main]]
 name = 'About'
@@ -32,8 +32,9 @@ name = 'Contact Us'
 pageRef = '/contact-us'
 weight = 60
 
-
 [module]
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+
+
