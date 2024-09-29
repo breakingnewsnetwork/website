@@ -94,7 +94,7 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    background-image: url("/images/home/top_bg.png");
+    background-image: url("./../images/home/top_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
