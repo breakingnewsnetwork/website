@@ -2,3 +2,12 @@ baseURL = 'https://breakingnewsnetwork.com'
 languageCode = 'en-us'
 title = 'Breaking News Network'
 theme = 'bnn'
+enableRobotsTXT = true
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+    [markup.goldmark]
+      [markup.goldmark.parser]
+        [markup.goldmark.parser.attribute]
+          block = true
+          title = true

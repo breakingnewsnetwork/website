@@ -3,6 +3,11 @@ languageCode = 'en-US'
 title = 'Breaking News Network'
 
 [[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 1
+
+[[menus.main]]
 name = 'About'
 pageRef = '/about'
 weight = 10
@@ -13,18 +18,18 @@ pageRef = '/subscribe'
 weight = 20
 
 [[menus.main]]
-name = 'Become a Reporter'
-pageRef = '/become-a-reporter'
+name = 'Incidents'
+pageRef = '/incidents'
 weight = 30
 
 [[menus.main]]
-name = 'Send a New Tip'
-pageRef = '/send-a-new-tip'
+name = 'Terms & Conditions'
+pageRef = '/terms-and-conditions'
 weight = 40
 
 [[menus.main]]
-name = 'Feedback'
-pageRef = '/feedback'
+name = 'Privacy Policy'
+pageRef = '/privacy-policy'
 weight = 50
 
 [[menus.main]]

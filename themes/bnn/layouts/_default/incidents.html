@@ -2,9 +2,8 @@
 <div class="container">
   <div class="inner-container">
     <h1>{{ .Title }}</h1>
-
     {{ .Content }}
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    {{ partial "incidents/list-full.html" . }}
   </div>
 </div>
 {{ end }}

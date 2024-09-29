@@ -3,11 +3,11 @@
     <div class="main">
         <div class="inner-container">
             <div class="main-left">
-                <h2>{{ .Params.title_1 }}</h2>
+                <h2 class="heading-white">{{ .Params.title_1 }}</h2>
                 <p>
                     {{ .Params.content_1 }}
                 </p>
-                <div style="text-align: end; margin-top: 60px">
+                <div style="text-align: end; margin-top: 50px">
                     <a href="{{ .Params.readmore_link_1 }}" class="read-more">{{ .Params.readmore_1 }}</a>
                 </div>
             </div>
@@ -16,15 +16,85 @@
 
     <div class="incidents">
         <div class="inner-container">
-            <h2>{{ .Params.title_2 }}</h2>
+            <h2 class="heading-blue">{{ .Params.title_2 }}</h2>
             {{ partial "incidents/list-short.html" . }}
-            <div style="text-align: end; margin-top: 60px">
+            <div style="text-align: end; margin-top: 50px">
                 <a href="{{ .Params.readmore_link_2 }}" class="read-more">{{ .Params.readmore_2 }}</a>
             </div>
         </div>
     </div>
 
-    {{ .Content }}
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    <div class="mobile-apps">
+        <div class="inner-container">
+            <div class="main-left">
+                <h3>{{ .Params.title_4 }}</h3>
+                <div class="download-holder">
+                    <a href="{{ .Params.appstore_link_4 }}" target="_blank" class="app-store">
+                        {{- with resources.Get "images/app_store_icon.png" }}
+                        <img src="{{ .RelPermalink }}" alt="App Store Download Button">
+                        {{- end }}
+                    </a>
+                    <a href="{{ .Params.playtore_link_4 }}" target="_blank" class="app-store">
+                        {{- with resources.Get "images/play_store_icon.png" }}
+                        <img src="{{ .RelPermalink }}" alt="Plays Store Download Button">
+                        {{- end }}
+                    </a>
+                </div>
+            </div>
+            <div class="main-right">
+                <h2 class="heading-blue">{{ .Params.title_3 }}</h2>
+                <p>
+                    {{ .Params.content_3 }}
+                </p>
+                <div style="text-align: end; margin-top: 50px">
+                    <a href="{{ .Params.readmore_link_3 }}" class="read-more">{{ .Params.readmore_3 }}</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="our-services">
+        <div class="inner-container">
+            <div class="main-full">
+                <h2 class="heading-blue">{{ .Params.title_5 }}</h2>
+                <div class="services-container">
+                    <div class="services">
+                        {{ range .Params.services }}
+                        <div class="service">
+                            <h3>{{ .title }}</h3>
+                            <ul>
+                                {{ range .features }}
+                                <li>{{ .description }}</li>
+                                {{ end }}
+                            </ul>
+                            <div class="more-holder">
+                                <a href="{{ .readmore_link }}" class="read-more">{{ .readmore }}</a>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="inner-container">
+            <div class="main-left">
+                <h2 class="heading-blue">{{ .Params.title_6 }}</h2>
+                <h3 class="heading-blue">{{ .Params.subtitle_6 }}</h3>
+                <p>
+                    {{ .Params.content_6 }}
+                </p>
+                <div style="text-align: end; margin-top: 50px">
+                    <a href="{{ .Params.readmore_link_6 }}" class="read-more">{{ .Params.readmore_6 }}</a>
+                </div>
+            </div>
+            <div class="main-right">
+
+            </div>
+        </div>
+    </div>
 </div>
 {{ end }}

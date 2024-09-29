@@ -1,10 +1,8 @@
 {{ define "main" }}
 <div class="container">
   <div class="inner-container">
-    <h1>{{ .Title }}</h1>
-
+    <iframe class="forms-frame" src="{{ .Params.iframe }}" style="height: {{ .Params.frame_height }}"> </iframe>
     {{ .Content }}
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   </div>
 </div>
 {{ end }}
