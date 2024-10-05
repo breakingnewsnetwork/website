@@ -29,6 +29,7 @@ draft = false
 title = "Public Safety"
 readmore = 'Subscribe'
 readmore_link = '/subscribe/'
+image = 'service_public_safety.png'
 [[params.services.features]]
 description = "Cross-jurisdictional Incident Awareness"
 [[params.services.features]]
@@ -38,6 +39,7 @@ description = "Immediate notification of incidents in neighboring districts allo
 title = "Journalist / Photographer"
 readmore = 'Subscribe'
 readmore_link = '/subscribe/'
+image = 'service_journalist.png'
 [[params.services.features]]
 description = "Real-time Event Notification"
 [[params.services.features]]
@@ -49,6 +51,7 @@ description = "Instantly Showcase Your Images and Videos From"
 title = "Broadcaster"
 readmore = 'Subscribe'
 readmore_link = '/subscribe/'
+image = 'service_broadcaster.png'
 [[params.services.features]]
 description = "Desktop Visual News Client"
 [[params.services.features]]
@@ -58,6 +61,7 @@ description = "Our desktop client is a virtual newsroom assistant, providing you
 title = "Disaster relief"
 readmore = 'Subscribe'
 readmore_link = '/subscribe/'
+image = 'service_disaster_relief.png'
 [[params.services.features]]
 description = "Situational Awareness"
 [[params.services.features]]

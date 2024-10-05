@@ -1,8 +1,11 @@
-{{- with resources.GetRemote "https://bnn.us/rss.xml" | transform.Unmarshal }}
+{{ $url := printf "https://bnn.us/rss.xml?v=%d-%d" now.Year now.YearDay }}
+{{- with resources.GetRemote $url | transform.Unmarshal }}
   <div class="incidents-container">
     {{ range .channel.item }}
     <div class="incidents-item">
-      {{ .pubDate }}
+      {{ $t := time.AsTime .updated }}
+      {{ $t := $t.Local }}
+      {{ $t | time.Format ":date_short" }} {{ $t | time.Format ":time_medium" }}
       <p> {{ .title }} | {{ .description }} | {{ .author }}</p>
     </div>
     {{ end }}

@@ -1,5 +1,6 @@
 baseURL = 'https://breakingnewsnetwork.com'
-languageCode = 'en-US'
+languageCode = 'en_US'
+timeZone = 'America/New_York'
 title = 'Breaking News Network'
 
 [[menus.main]]
