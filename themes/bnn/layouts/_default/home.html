@@ -7,9 +7,11 @@
                 <p>
                     {{ .Params.content_1 }}
                 </p>
-                <div style="text-align: end; margin-top: 50px">
+                <div class="read-more-holder">
                     <a href="{{ .Params.readmore_link_1 }}" class="read-more">{{ .Params.readmore_1 }}</a>
                 </div>
+            </div>
+            <div class="main-right">
             </div>
         </div>
     </div>
@@ -18,7 +20,7 @@
         <div class="inner-container">
             <h2 class="heading-blue">{{ .Params.title_2 }}</h2>
             {{ partial "incidents/list-short.html" . }}
-            <div style="text-align: end; margin-top: 50px">
+            <div class="read-more-holder">
                 <a href="{{ .Params.readmore_link_2 }}" class="read-more-black">{{ .Params.readmore_2 }}</a>
             </div>
         </div>
@@ -46,7 +48,7 @@
                 <p>
                     {{ .Params.content_3 }}
                 </p>
-                <div style="text-align: end; margin-top: 50px">
+                <div class="read-more-holder">
                     <a href="{{ .Params.readmore_link_3 }}" class="read-more-black">{{ .Params.readmore_3 }}</a>
                 </div>
             </div>
@@ -55,14 +57,14 @@
     </div>
 
     <div class="our-services">
-        <div class="inner-container">
+        <div class="inner-container-wide">
             <div class="main-full">
                 <h2 class="heading-blue">{{ .Params.title_5 }}</h2>
                 <div class="services-container">
                     <div class="services">
                         {{ range .Params.services }}
                         <div class="service">
-                            <img src="./../images/home/{{ .image }}" alt="{{ .title }}">
+                            <img src="./images/home/{{ .image }}" alt="{{ .title }}">
                             <h3>{{ .title }}</h3>
                             <ul>
                                 {{ range .features }}
@@ -88,7 +90,7 @@
                 <p>
                     {{ .Params.content_6 }}
                 </p>
-                <div style="text-align: end; margin-top: 50px">
+                <div class="read-more-holder">
                     <a href="{{ .Params.readmore_link_6 }}" class="read-more-black">{{ .Params.readmore_6 }}</a>
                 </div>
             </div>

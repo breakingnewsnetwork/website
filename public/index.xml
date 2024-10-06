@@ -23,13 +23,6 @@
       <description>&lt;h3 id=&#34;customer-service&#34;&gt;Customer Service&lt;/h3&gt;&#xA;&lt;p&gt;Customer service is available:&lt;/p&gt;&#xA;&lt;p&gt;Monday 8:00a-5:00p &lt;br&gt;&#xA;Tuesday 8:00a-5:00p &lt;br&gt;&#xA;Wednesday 8:00a-5:00p &lt;br&gt;&#xA;Thursday 8:00a-5:00p &lt;br&gt;&#xA;Friday 8:00a-5:00p&lt;/p&gt;&#xA;&lt;p&gt;We can reached at 888-875-6100 during business hours or by &lt;a href=&#34;mailto:support@breakingnewsnetwork.com&#34;&gt;support@breakingnewsnetwork.com&lt;/a&gt; anytime.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Contact Us</title>
-      <link>http://localhost:1313/subscribe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/subscribe/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Incicents</title>
       <link>http://localhost:1313/incidents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -42,6 +35,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/privacy-policy/</guid>
       <description>&lt;h3 id=&#34;privacy-policy-for-the-breaking-news-network-mobile-application-and-online-services&#34;&gt;PRIVACY POLICY FOR THE BREAKING NEWS NETWORK MOBILE APPLICATION AND ONLINE SERVICES&lt;/h3&gt;&#xA;&lt;p&gt;This privacy policy governs your use of the software application BREAKING NEWS NETWORK (BNN) (“Application”) for mobile devices and webpages that were created by BREAKING NEWS NETWORK, INC.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-information-does-the-application-obtain-and-how-is-it-used&#34;&gt;What information does the Application obtain and how is it used?&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1-user-provided-information&#34;&gt;1) User Provided Information&lt;/h4&gt;&#xA;&lt;p&gt;We obtain the following information which you provide when you register the Application.&lt;/p&gt;&#xA;&lt;p&gt;When you register with us, you generally provide (a) your name, mailing address, email address, phone number, age, employer information, user name, password and other registration information; (b) transaction-related information, such as when you make purchases, respond to any offers, or download or use applications from us; (c) information you provide us when you contact us for help; (d) credit card information for purchase and use of the Application, and; (e) information you enter into our system when using the Application, such as contact information, and any other information we may request to confirm or verify your identity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Subscribe to Breaking News Network</title>
+      <link>http://localhost:1313/subscribe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/subscribe/</guid>
+      <description></description>
     </item>
     <item>
       <title>Terms and Conditions</title>

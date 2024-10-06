@@ -1,0 +1,221 @@
+@media (max-width: 1024px) {
+    :root {
+        --max-width: 100%;
+        --max-page-width: 1024px;
+        --max-width-wide: 1024px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    h1, h2 {
+        font-size: 44px;
+        font-weight: bold;
+        margin: 0 0 60px;
+    }
+
+    header {
+        padding: 0 10px;
+    }
+
+    .service h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    nav ul {
+        gap: 10px;
+    }
+
+    nav ul li {
+        padding: 10px 0;
+    }
+
+    .main {
+        padding: 20px;
+        min-height: 700px;
+    }
+
+    .incidents {
+        padding: 0 20px;
+    }
+
+    .incidents h2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .mobile-apps {
+        margin-top: -100px;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .mobile-apps .inner-container .main-left {
+        width: 326px;
+        margin-top: 400px;
+        margin-left: 25%;
+        padding: 0;
+    }
+
+    .mobile-apps .inner-container .main-right {
+        padding-top: 250px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .news {
+        background-position-x: -200px;
+        padding-bottom: 20px;
+    }
+
+    .container .news .inner-container .main-left {
+        width: 310px;
+        padding: 0 20px;
+    }
+
+    footer .inner-container {
+        padding: 20px;
+    }
+
+    .top-bg {
+        background-position-y: 0;
+    }
+
+    .bottom-bg {
+        background-position-y: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        padding: 10px 0;
+    }
+
+    .read-more-holder {
+        margin-top: 20px;
+    }
+
+    .main {
+        background: var(--blue-background);
+        padding: 20px;
+        min-height: 200px;
+    }
+
+    .main-left {
+        width: 100%;
+    }
+
+    .main .main-right {
+        display: block;
+        width: 100%;
+        height: 500px;
+        background-image: url("./../images/home/top_bg_1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        margin: 0 -20px;
+        padding: 0 20px;
+    }
+
+    .incidents {
+        margin-top: 0;
+        padding: 0 20px;
+    }
+
+    .incidents-item {
+        width: 100%;
+    }
+
+    .incidents h2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .mobile-apps {
+        background-image: url(./../images/home/mobile_app_bg_1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .container .mobile-apps .inner-container {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding: 0 20px;
+    }
+
+    .mobile-apps .inner-container .main-left {
+        width: 100%;
+        margin: 40px auto 0 auto;
+        min-height: 305px;
+        padding: 0;
+    }
+
+    .mobile-apps .inner-container .main-right {
+        width: 100%;
+        padding-top: 0;
+        margin: 0 0 100px;
+    }
+
+    .mobile-apps .inner-container .main-left h3 {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .download-holder {
+        text-align: left;
+    }
+
+    .service h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .news {
+        background-image: url(./../images/home/news_bg_1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        margin-top: -100px;
+        min-height: 560px;
+        padding-bottom: 20px;
+    }
+
+    .news p {
+        margin-bottom: 0;
+    }
+
+    .container .news .inner-container .main-left {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    footer .inner-container {
+        padding: 20px;
+    }
+
+    .top-bg {
+        background-position-y: 0;
+    }
+
+    .bottom-bg {
+        background-position-y: 0;
+    }
+}
