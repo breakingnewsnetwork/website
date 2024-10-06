@@ -38,6 +38,43 @@ name = 'Contact Us'
 pageRef = '/contact-us'
 weight = 60
 
+
+[[menus.footer1]]
+name = 'Home'
+pageRef = '/'
+weight = 1
+
+[[menus.footer1]]
+name = 'About'
+pageRef = '/about'
+weight = 10
+
+[[menus.footer1]]
+name = 'Contact Us'
+pageRef = '/contact-us'
+weight = 30
+
+[[menus.footer2]]
+name = 'Incidents'
+pageRef = '/incidents'
+weight = 1
+
+[[menus.footer2]]
+name = 'Subscribe'
+pageRef = '/subscribe'
+weight = 10
+
+[[menus.footer3]]
+name = 'Terms & Conditions'
+pageRef = '/terms-and-conditions'
+weight = 1
+
+[[menus.footer3]]
+name = 'Privacy Policy'
+pageRef = '/privacy-policy'
+weight = 10
+
+
 [module]
   [module.hugoVersion]
     extended = false

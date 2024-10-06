@@ -11,11 +11,11 @@
   </url><url>
     <loc>http://localhost:1313/contact-us/</loc>
   </url><url>
-    <loc>http://localhost:1313/subscribe/</loc>
-  </url><url>
     <loc>http://localhost:1313/incidents/</loc>
   </url><url>
     <loc>http://localhost:1313/privacy-policy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/subscribe/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>

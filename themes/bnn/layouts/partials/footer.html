@@ -1,20 +1,27 @@
 <div class="container">
     <div class="inner-container">
         <div class="footer">
+            {{ if .Site.Menus.footer1 }}
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="./../about">About Us</a></li>
-                <li><a href="./../contact-us">Contact Us</a></li>
-
+                {{ range sort .Site.Menus.footer1 "Weight" }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
             </ul>
+            {{ end }}
+            {{ if .Site.Menus.footer2 }}
             <ul>
-                <li><a href="./../incidents">Incidents</a></li>
-                <li><a href="./../subscribe">Subscribe</a></li>
+                {{ range sort .Site.Menus.footer2 "Weight" }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
             </ul>
+            {{ end }}
+            {{ if .Site.Menus.footer3 }}
             <ul>
-                <li><a href="./../terms-and-conditions">Terms & Conditions</a></li>
-                <li><a href="./../privacy-policy">Privacy Policy</a></li>
+                {{ range sort .Site.Menus.footer3 "Weight" }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
             </ul>
+            {{ end }}
             <ul>
                 <li>Follow Us</li>
                 <li><a href="https://www.facebook.com/@bnndesk" target="_blank"><i class="fa-brands fa-facebook"></i>On Facebook</a></li>
