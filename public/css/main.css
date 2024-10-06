@@ -162,6 +162,14 @@ nav a:hover {
     border-bottom: 1px solid var(--color-secondary);
 }
 
+.navbar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--black-text);
+    font-size: 1.5rem;
+}
+
 .main {
     display: flex;
     justify-content: space-between;
