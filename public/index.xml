@@ -23,11 +23,11 @@
       <description>&lt;h3 id=&#34;customer-service&#34;&gt;Customer Service&lt;/h3&gt;&#xA;&lt;p&gt;Customer service is available:&lt;/p&gt;&#xA;&lt;p&gt;Monday 8:00a-5:00p &lt;br&gt;&#xA;Tuesday 8:00a-5:00p &lt;br&gt;&#xA;Wednesday 8:00a-5:00p &lt;br&gt;&#xA;Thursday 8:00a-5:00p &lt;br&gt;&#xA;Friday 8:00a-5:00p&lt;/p&gt;&#xA;&lt;p&gt;We can reached at 888-875-6100 during business hours or by &lt;a href=&#34;mailto:support@breakingnewsnetwork.com&#34;&gt;support@breakingnewsnetwork.com&lt;/a&gt; anytime.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Incicents</title>
+      <title>Incidents</title>
       <link>http://localhost:1313/incidents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/incidents/</guid>
-      <description>&lt;h3 id=&#34;breaking-news---few-hours-ago&#34;&gt;Breaking News - Few hours ago&lt;/h3&gt;</description>
+      <description>&lt;h3 id=&#34;sample-incidents-broadcast-by-bnn-yesterday&#34;&gt;Sample incidents broadcast by BNN yesterday&lt;/h3&gt;</description>
     </item>
     <item>
       <title>Privacy Policy</title>

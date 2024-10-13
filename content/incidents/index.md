@@ -1,7 +1,8 @@
 +++
-title = 'Incicents'
+title = 'Incidents'
 draft = false
 layout = 'incidents'
 +++
 
-### Breaking News - Few hours ago
+### Sample incidents broadcast by BNN yesterday
+ 
